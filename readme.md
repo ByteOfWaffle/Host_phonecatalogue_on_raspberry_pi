@@ -1,54 +1,98 @@
-Start by installing a operating system on your Raspberry Pi. I am going to show how to download ubuntu.
-First off insert the pi SD card into your computer.
-Download raspberry imager from here: https://www.raspberrypi.com/software/ 
+# 🍓 Installing Ubuntu on Your Raspberry Pi
 
-![alt text](image.png)
+## 📥 Preparation
 
-Now open the downloaded file and run it, press install then run the raspberry pi imager.
+1. Insert the Pi SD card into your computer.
+2. Download Raspberry Pi Imager from [here](https://www.raspberrypi.com/software/).
 
-![alt text](image-2.png)
+![Raspberry Pi Imager Download Page](image.png)
 
-Press Choose Device under Raspberry Pi Device then select the Raspberry Pi model you have. 
+## 🚀 Installation Process
 
-![alt text](image-5.png)
+### Step 1: Launch Raspberry Pi Imager
 
-In my case it is a Raspberry Pi 4.
+Open the downloaded file and run it. Click "Install" and then run the Raspberry Pi Imager.
 
-![alt text](image-4.png)
+![Raspberry Pi Imager Installation](image-2.png)
 
-Then choose the operating system you want to install, in this guide I am going to install Ubuntu.
+### Step 2: Choose Your Device
 
-![alt text](image-7.png)
+1. Click "Choose Device" under Raspberry Pi Device.
+2. Select your Raspberry Pi model.
 
-Scroll down and select other general purpose OS.
+![Choose Device](image-5.png)
 
-![alt text](image-8.png)
+> In this guide, we're using a Raspberry Pi 4.
 
-Select Ubuntu.
+![Raspberry Pi 4 Selection](image-4.png)
 
-![alt text](image-9.png)
+### Step 3: Select Operating System
 
-If you have a model with 4+ gb of ram then select the top option, otherwise select the bottom option as shown in the image.
+We'll be installing Ubuntu in this guide.
 
-![alt text](image-10.png)
+1. Click "Choose OS".
+2. Scroll down and select "Other general-purpose OS".
 
-Press the Choose Storage butten and select the Pi SD card you inserted in the beginning.
+![Choose OS](image-7.png)
+![Other general-purpose OS](image-8.png)
 
-![alt text](image-11.png)
+3. Select "Ubuntu".
 
+![Ubuntu Selection](image-9.png)
 
-![alt text](image-12.png)
+4. Choose the appropriate version based on your Pi's RAM:
+   - 4+ GB RAM: Select the top option
+   - Less than 4 GB RAM: Select the bottom option
 
-Now press next and then yes. (WARNING THIS WILL ERASE ALL DATA ON YOUR SD CARD TO INSTALL UBUNTU)
+![Ubuntu Version Selection](image-10.png)
 
-![alt text](image-13.png)
+### Step 4: Choose Storage
 
-![alt text](image-14.png)
+1. Click "Choose Storage".
+2. Select your Pi SD card.
 
-After installation is complete this prompt will appear.
+![Choose Storage](image-11.png)
+![SD Card Selection](image-12.png)
 
-![alt text](image-15.png)
+### Step 5: Write the Image
 
-Now remove the SD card from your computer and insert it into the Raspberry Pi.
+1. Click "Next".
+2. Click "Yes" to confirm.
 
-Use the display cable and connect the Pi to your monitor.
+> ⚠️ **WARNING**: This will erase all data on your SD card to install Ubuntu.
+
+![Write Confirmation](image-13.png)
+![Erasing Warning](image-14.png)
+
+### Step 6: Complete Installation
+
+Wait for the installation to complete. You'll see this prompt when it's done:
+
+![Installation Complete](image-15.png)
+
+## 🖥️ First Boot
+
+1. Remove the SD card from your computer and insert it into the Raspberry Pi.
+2. Connect the Pi to your monitor using the display cable.
+3. Power on the Raspberry Pi.
+
+> 🔄 Boot process:
+> 1. Rainbow screen (a few seconds)
+> 2. Black screen
+> 3. Ubuntu logo with a throbber
+
+> 🛠️ Troubleshooting: If stuck on the rainbow screen, check if the display cable is connected to the correct port on the Pi.
+
+## 🎉 Ubuntu Setup
+
+1. Select your language and click "Continue".
+2. Choose your keyboard layout and click "Continue".
+3. Set your location (city) and click "Continue" (or press on your location on the map).
+4. Enter your personal details:
+   - Name
+   - Computer name
+   - Username
+   - Password
+5. Wait for Ubuntu to complete the configuration.
+
+Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
