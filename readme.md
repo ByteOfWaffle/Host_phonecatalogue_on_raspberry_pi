@@ -94,5 +94,13 @@ Wait for the installation to complete. You'll see this prompt when it's done:
    - Username
    - Password
 5. Wait for Ubuntu to complete the configuration.
+6. Click the username and enter your password, now you should be on the Ubuntu desktop and see a welcome screen.
+7. Just press next at the top right corner.
+8. If you wish to you can enable Ubuntu Pro and press next.
+9. Choose if you want to share your data with the Ubuntu Foundation and press next.
+10. Finally press finish.
+11. At the top left of your screen you should see a message asking if you want to update your system, select Install now.
 
 Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
+
+##
