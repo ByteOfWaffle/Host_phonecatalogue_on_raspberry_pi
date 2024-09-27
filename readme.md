@@ -120,7 +120,7 @@ Wait for the installation to complete. You'll see this prompt when it's done:
 
 Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
 
-## 💻⚙️Update system and install additional software.
+# 💻⚙️Update system and install additional software.
 
 
 ## Step 1 - Update System
@@ -160,4 +160,24 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 
-## step 4 - Control your Pi with from pc with SSH
+## Install additional software
+
+```bash
+sudo apt install git
+sudo apt install python3-pip
+sudo apt install mariadb-server
+sudo mysql_secure_installation
+```
+
+
+# 📟 Control your Pi with from pc with SSH
+
+## Step 1 - Find your Pi's IP address
+
+Open a terminal by pressing ctrl+alt+t
+Write the following command:
+
+```bash
+Hostname -I
+```
+
