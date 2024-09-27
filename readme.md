@@ -160,7 +160,7 @@ sudo systemctl enable ssh
 sudo systemctl start ssh
 ```
 
-## Install additional software
+## step 4 Install additional software
 
 ```bash
 sudo apt install git
@@ -169,6 +169,11 @@ sudo apt install mariadb-server
 sudo mysql_secure_installation
 ```
 
+## step 5 - update again
+```bash
+sudo apt update
+sudo apt upgrade
+```
 
 # 📟 Control your Pi with from pc with SSH
 
