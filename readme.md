@@ -4,7 +4,7 @@
 - Raspberry Pi 4
 - Computer with SD card reader
 - A monitor for your Raspberry Pi
-- Download python from [here](https://www.python.org/downloads/)
+- Download python from [here](https://www.python.org/downloads/) (remeber to select add to PATH when asked)
 - Download git from [here](https://git-scm.com/downloads)
 
 ## 📥 Preparation
@@ -212,5 +212,34 @@ Now the screen should look like this:
 
 Anything you run in the terminal will be run on the PI.
 
-Install SQL Connector on windows pc , by opening terminal and writing: pip install mysql-connector-python i
-Dowload ![alt text](image-22.png)
+# 📠run PhoneCatalogue
+## step 1 - Download the files in this repository.
+Download the files in this repository.
+
+![alt text](image-24.png)
+
+## Step 2 - Install SQL Connector on windows pc.
+
+Install SQL Connector on windows pc by opening windows terminal and writing: pip install mysql-connector-python
+![alt text](image-22.png)
+
+## step 3 - create MariaDB user.
+Rememver you can run all this with the windows ssh you set up earlier.
+
+Connect to maria DB and create a user.
+```bash
+sudo mariadb
+
+⚠️ Enter your password when asked.
+
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+
+GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost';
+
+FLUSH PRIVILEGES;
+```
+> ⚠️ A common mistake is forgetting to add the ; at the end of a command. I will NOT work without it.
+
+![alt text](image-25.png)
+
+
