@@ -257,3 +257,5 @@ Now open the python file in a code edior like vscode or just use notepad.
 thaen change the sql connector information to the ip adress of your raspberry pi and your mariadb user and password.
 
 ![alt text](image-26.png)
+
+Then save and run the python file.
