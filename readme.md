@@ -242,4 +242,18 @@ FLUSH PRIVILEGES;
 
 ![alt text](image-25.png)
 
+now write: exit
+then login to the account you just created with the password you made.
+```bash	
+mariadb -u username -p 
+```
+> ⚠️ Username should be replaced with the one you made.
 
+Now write the content in the sql files into the terminal.
+Remember to do it in the order of the sql files they are numbered from 1 to 4.
+It's very simple just copy and paste the content.
+
+Now open the python file in a code edior like vscode or just use notepad.
+thaen change the sql connector information to the ip adress of your raspberry pi and your mariadb user and password.
+
+![alt text](image-26.png)

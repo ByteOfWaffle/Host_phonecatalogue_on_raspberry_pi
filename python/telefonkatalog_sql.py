@@ -1,9 +1,9 @@
 import mysql.connector # pip install mysql-connector-python
 
 conn = mysql.connector.connect(
-    host="PI IP ADRESS HERE",
-    user="test",
-    password="test",
+    host="10.2.2.242",
+    user="example",
+    password="123",
     database="telefonkatalog"
 )
 cursor = conn.cursor()
