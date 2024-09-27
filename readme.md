@@ -1,5 +1,10 @@
 # 🍓 Installing Ubuntu on Your Raspberry Pi
 
+## 📋prerequisites
+- Raspberry Pi 4
+- Computer with SD card reader
+- A monitor for your Raspberry Pi
+
 ## 📥 Preparation
 
 1. Insert the Pi SD card into your computer.
@@ -115,7 +120,7 @@ Wait for the installation to complete. You'll see this prompt when it's done:
 
 Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
 
-## Update system and install additional software.
+## 💻⚙️Update system and install additional software.
 
 
 ## Step 1 - Update System
@@ -143,6 +148,16 @@ Now you can check the firewall status with:
 ```bash	
 sudo ufw status
 ```
-## Step 3 - Install additional software
+If it says Status: active at the top, you're good to go.
 
+![alt text](image-19.png)
 
+## Step 3 - Install and enable SSH
+
+```bash
+sudo apt install openssh-server
+sudo systemctl enable ssh
+sudo systemctl start ssh
+```
+
+## step 4 - Control your Pi with from pc with SSH
