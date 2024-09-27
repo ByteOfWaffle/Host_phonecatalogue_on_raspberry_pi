@@ -4,6 +4,8 @@
 - Raspberry Pi 4
 - Computer with SD card reader
 - A monitor for your Raspberry Pi
+- Download python from [here](https://www.python.org/downloads/)
+- Download git from [here](https://git-scm.com/downloads)
 
 ## 📥 Preparation
 
@@ -178,7 +180,7 @@ sudo apt upgrade
 # 📟 Control your Pi with from pc with SSH
 
 ## Step 1 - Check if SSH is enabled
-Open your windows search meny and look up: optional features and press that
+Open your windows search meny and look up: optional features and press that.
 
 ![alt text](image-21.png)
 
@@ -195,3 +197,14 @@ Write the following command:
 Hostname -I
 ```
 
+open windows control panel and write this:
+
+```bash
+ssh username@ip
+```
+⚠️ Replace "username" with the PI username you made and the replace "ip" with the IP address you found in step 2.
+when asked: "Are you sure you want to continue connecting (yes/no/)?" write "yes" then press enter.
+Input the password you made for your PI user and press enter.
+
+Install SQL Connector on windows pc , by opening terminal and writing: pip install mysql-connector-python i
+Dowload ![alt text](image-22.png)
