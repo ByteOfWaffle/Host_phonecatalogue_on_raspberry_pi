@@ -206,5 +206,11 @@ ssh username@ip
 when asked: "Are you sure you want to continue connecting (yes/no/)?" write "yes" then press enter.
 Input the password you made for your PI user and press enter.
 
+Now the screen should look like this:
+
+![alt text](image-23.png)
+
+Anything you run in the terminal will be run on the PI.
+
 Install SQL Connector on windows pc , by opening terminal and writing: pip install mysql-connector-python i
 Dowload ![alt text](image-22.png)
