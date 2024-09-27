@@ -95,12 +95,44 @@ Wait for the installation to complete. You'll see this prompt when it's done:
    - Password
 5. Wait for Ubuntu to complete the configuration.
 6. Click the username and enter your password, now you should be on the Ubuntu desktop and see a welcome screen.
-7. Just press next at the top right corner.
+
+![alt text](<Media (3).jpg>)
+
+7. Just press next at the top right corner of the welcome screen.
+
+![alt text](image-16.png)
+
 8. If you wish to you can enable Ubuntu Pro and press next.
 9. Choose if you want to share your data with the Ubuntu Foundation and press next.
 10. Finally press finish.
-11. At the top left of your screen you should see a message asking if you want to update your system, select Install now.
+11. If you don't have an ethernet cable, you can connect to a wifi network by pressing the tip right corner. the the arrow next to wifi, then select your network, input password and connect.
+
+![alt text](image-17.png)
+
+12. At the top left of your screen you should see a message asking if you want to update your system, select Install now.
+
+![alt text](image-18.png)
 
 Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
 
-##
+## Update system and install additional software.
+
+Open a terminal by pressing ctrl+alt+t
+
+Write the following commands:
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+You can now install additional software by typing the following commands:
+
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install python3-venv
+
+
+## 📝 Installing PhoneCatalogue
+
+### Step 1: Clone the repository
