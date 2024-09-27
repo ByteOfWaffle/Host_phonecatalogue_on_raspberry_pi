@@ -177,7 +177,16 @@ sudo apt upgrade
 
 # 📟 Control your Pi with from pc with SSH
 
-## Step 1 - Find your Pi's IP address
+## Step 1 - Check if SSH is enabled
+Open your windows search meny and look up: optional features and press that
+
+![alt text](image-21.png)
+
+Press "View features" look up openssh, make sure it is selected and press next then add.
+
+![alt text](image-20.png)
+
+## Step 2 - Find your Pi's IP address
 
 Open a terminal by pressing ctrl+alt+t
 Write the following command:
