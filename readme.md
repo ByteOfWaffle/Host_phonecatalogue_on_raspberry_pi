@@ -9,7 +9,7 @@
 
 ## 🚀 Installation Process
 
-### Step 1: Launch Raspberry Pi Imager
+### Step 1: Launch Raspberry Pi Imager installer
 
 Open the downloaded file and run it. Click "Install" and then run the Raspberry Pi Imager.
 
@@ -54,7 +54,7 @@ We'll be installing Ubuntu in this guide.
 ![Choose Storage](image-11.png)
 ![SD Card Selection](image-12.png)
 
-### Step 5: Write the Image
+### Step 5: Install Ubuntu
 
 1. Click "Next".
 2. Click "Yes" to confirm.
