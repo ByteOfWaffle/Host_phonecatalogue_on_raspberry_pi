@@ -117,6 +117,8 @@ Congratulations! You've successfully installed Ubuntu on your Raspberry Pi! 🎊
 
 ## Update system and install additional software.
 
+
+## Step 1 - Update System
 Open a terminal by pressing ctrl+alt+t
 
 Write the following commands:
@@ -125,14 +127,22 @@ Write the following commands:
 sudo apt update
 sudo apt upgrade
 ```
+If they ask for a password, enter the one you made for your Ubuntu user.
+whe nthey ask for confirmation, type "y" and press enter.
 
-You can now install additional software by typing the following commands:
+## Step 2 - Set up firewall
 
-sudo apt install python3
-sudo apt install python3-pip
-sudo apt install python3-venv
+Set up firewall:
+
+```bash
+sudo apt install ufw
+sudo ufw enable
+sudo ufw allow ssh
+```
+Now you can check the firewall status with:
+```bash	
+sudo ufw status
+```
+## Step 3 - Install additional software
 
 
-## 📝 Installing PhoneCatalogue
-
-### Step 1: Clone the repository
